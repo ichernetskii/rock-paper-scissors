@@ -1,0 +1,62 @@
+.button {
+  position: relative;
+  padding: 0;
+  width: 11%;
+  min-width: 150px;
+  height: 170px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition-property: border-color, color, background-color;
+  transition-duration: 400ms;
+
+  &_win { border-width: 8px }
+
+  &_win &__title { bottom: calc(10% - 4px) }
+
+  &_rock {
+    background-color: #1e1d4b;
+    border-color: #2c4281;
+    color: #287de1;
+
+    &:hover {
+      background-color: #302e77;
+      border-color: #3b58ad;
+      color: #2c8aff;
+    }
+  }
+
+  &_paper {
+    background-color: #1b3820;
+    border-color: #1b6a33;
+    color: #1fbc58;
+
+    &:hover {
+      background-color: #23492a;
+      border-color: #259146;
+      color: #26e86d;
+    }
+  }
+
+  &_scissors {
+    background-color: #4f0d21;
+    border-color: #84122d;
+    color: #d71b42;
+
+    &:hover {
+      background-color: #791432;
+      border-color: #ad183b;
+      color: #ff1f4f;
+    }
+  }
+
+  &__title {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

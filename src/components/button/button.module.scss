@@ -1,0 +1,24 @@
+.button {
+  padding: 20px 50px;
+  cursor: pointer;
+  background-color: #070707;
+  border: 2px solid #c8a879;
+  color: #c8a879;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 10000px;
+  transition-property: border-color, color;
+  transition-duration: 600ms;
+
+  &:disabled {
+    background-color: #4b4b4b;
+    border-color: #c7b294;
+    color: #c5b399;
+  }
+
+  &:hover {
+    border-color: #f6cf96;
+    color: #f6cf96;
+  }
+}
