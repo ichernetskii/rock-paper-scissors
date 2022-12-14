@@ -1,6 +1,6 @@
 ## Rock paper scissors game
 
-🚀 [Live demo](https://.netlify.com)
+🚀 [Live demo](https://rock-paper-scissors-a-game.netlify.app)
 
 ## Available Scripts
 
